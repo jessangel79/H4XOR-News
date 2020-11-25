@@ -13,6 +13,11 @@
 		3A19C3EE256EA13D00015A10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A19C3ED256EA13D00015A10 /* Assets.xcassets */; };
 		3A19C3F1256EA13D00015A10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A19C3F0256EA13D00015A10 /* Preview Assets.xcassets */; };
 		3A19C3F4256EA13D00015A10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A19C3F2256EA13D00015A10 /* LaunchScreen.storyboard */; };
+		3A19C3FE256EB05A00015A10 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A19C3FD256EB05A00015A10 /* NetworkManager.swift */; };
+		3A19C402256EB17300015A10 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A19C401256EB17300015A10 /* PostData.swift */; };
+		3A19C40B256EC32100015A10 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A19C40A256EC32100015A10 /* DetailView.swift */; };
+		3A19C40E256EC98E00015A10 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A19C40D256EC98E00015A10 /* WebView.swift */; };
+		3A19C411256ED21A00015A10 /* AlertButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A19C410256ED21A00015A10 /* AlertButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		3A19C3F0256EA13D00015A10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A19C3F3256EA13D00015A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A19C3F5256EA13D00015A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A19C3FD256EB05A00015A10 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3A19C401256EB17300015A10 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		3A19C40A256EC32100015A10 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		3A19C40D256EC98E00015A10 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		3A19C410256ED21A00015A10 /* AlertButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +68,8 @@
 			children = (
 				3A19C3E7256EA13C00015A10 /* AppDelegate.swift */,
 				3A19C3E9256EA13C00015A10 /* SceneDelegate.swift */,
-				3A19C3EB256EA13C00015A10 /* ContentView.swift */,
+				3A19C3FC256EB04C00015A10 /* Models */,
+				3A19C408256EC31000015A10 /* Views */,
 				3A19C3ED256EA13D00015A10 /* Assets.xcassets */,
 				3A19C3F2256EA13D00015A10 /* LaunchScreen.storyboard */,
 				3A19C3F5256EA13D00015A10 /* Info.plist */,
@@ -73,6 +84,26 @@
 				3A19C3F0256EA13D00015A10 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A19C3FC256EB04C00015A10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A19C3FD256EB05A00015A10 /* NetworkManager.swift */,
+				3A19C401256EB17300015A10 /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A19C408256EC31000015A10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A19C3EB256EA13C00015A10 /* ContentView.swift */,
+				3A19C40A256EC32100015A10 /* DetailView.swift */,
+				3A19C40D256EC98E00015A10 /* WebView.swift */,
+				3A19C410256ED21A00015A10 /* AlertButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +176,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A19C411256ED21A00015A10 /* AlertButton.swift in Sources */,
+				3A19C402256EB17300015A10 /* PostData.swift in Sources */,
+				3A19C40B256EC32100015A10 /* DetailView.swift in Sources */,
+				3A19C3FE256EB05A00015A10 /* NetworkManager.swift in Sources */,
 				3A19C3E8256EA13C00015A10 /* AppDelegate.swift in Sources */,
 				3A19C3EA256EA13C00015A10 /* SceneDelegate.swift in Sources */,
 				3A19C3EC256EA13C00015A10 /* ContentView.swift in Sources */,
+				3A19C40E256EC98E00015A10 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
