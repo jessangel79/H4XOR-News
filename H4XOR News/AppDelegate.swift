@@ -6,7 +6,9 @@
 //
 
 import UIKit
+import SwiftUI
 
+//@UIApplicationMain
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -34,3 +36,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+
+struct AppDelegate_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+    }
+}

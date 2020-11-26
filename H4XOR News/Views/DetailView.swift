@@ -12,9 +12,7 @@ struct DetailView: View {
     let url: String?
     
     var body: some View {
-        if let url = url {
-            WebView(urlString: url)
-        }
+        WebView(urlString: url)
     }
 }
 
